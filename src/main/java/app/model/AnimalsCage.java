@@ -16,7 +16,8 @@ public class AnimalsCage {
 
     @Autowired //Автоматическая инъекцию зависимости типа Timer
     private Timer timer;
-    public Timer timer(){
+
+    public Timer getTimer() {
         return timer;
     }
 
